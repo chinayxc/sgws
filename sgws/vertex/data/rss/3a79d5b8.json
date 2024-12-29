@@ -1,0 +1,33 @@
+{
+  "clientArr": [
+    "b8709780"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": true,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": 600,
+  "skipSameTorrent": false,
+  "pushTorrentFile": false,
+  "cron": "* * * * *",
+  "addCountPerHour": "600",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [
+    "e51edbac"
+  ],
+  "reseedClients": [],
+  "rssUrls": [
+    "填入的RSS"
+  ],
+  "alias": "29.Piggo猪猪(注意HR，盒子单刷，不要和其他站一起刷）",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "30",
+  "downloadLimit": "0",
+  "category": "PIG",
+  "id": "3a79d5b8",
+  "sameServerClients": [],
+  "cookie": "替换成自己的cookie",
+  "uploadLimitUnit": "MiB"
+}

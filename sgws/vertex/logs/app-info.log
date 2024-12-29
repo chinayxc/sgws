@@ -1,0 +1,42 @@
+[2024-12-29T10:13:24.114][INFO console] 29 (app/common/Client.js 75:12) 下载器 0-NC|Lin 初始化完毕
+[2024-12-29T10:13:24.132][INFO console] 29 (vertex/app/app.js 165:12) HTTP 服务器启动, 监听端口:  3000
+[2024-12-29T10:13:24.262][INFO console] 29 (app/libs/redis.js 14:10) Redis connected!
+[2024-12-29T10:13:32.008][INFO console] 29 (app/common/Client.js 239:14) 下载器 0-NC|Lin 登录成功
+[2024-12-29T10:14:12.138][INFO console] 24 (app/common/Client.js 75:12) 下载器 0-NC|Lin 初始化完毕
+[2024-12-29T10:14:12.151][INFO console] 24 (vertex/app/app.js 165:12) HTTP 服务器启动, 监听端口:  3000
+[2024-12-29T10:14:12.217][INFO console] 24 (app/libs/redis.js 14:10) Redis connected!
+[2024-12-29T10:14:12.232][INFO console] 24 (app/common/Client.js 239:14) 下载器 0-NC|Lin 登录成功
+[2024-12-29T10:15:27.329][INFO console] 24 (app/controller/User.js 12:14) 登录成功, IP: 132.226.229.16
+[2024-12-29T10:21:05.915][INFO console] 24 (app/common/Client.js 174:12) 销毁下载器实例 0-NC|Lin
+[2024-12-29T10:21:05.932][INFO console] 24 (app/common/Client.js 75:12) 下载器 0-NC|甲骨文|正价 初始化完毕
+[2024-12-29T10:21:05.935][INFO console] 24 (app/common/Client.js 239:14) 下载器 0-NC|甲骨文|正价 登录成功
+[2024-12-29T10:28:45.312][INFO console] 24 (app/common/Client.js 174:12) 销毁下载器实例 0-NC|甲骨文|正价
+[2024-12-29T10:28:45.319][INFO console] 24 (app/common/Client.js 75:12) 下载器 0-NC|甲骨文|正价 初始化完毕
+[2024-12-29T10:28:45.322][INFO console] 24 (app/common/Client.js 239:14) 下载器 0-NC|甲骨文|正价 登录成功
+[2024-12-29T10:29:07.017][INFO console] 24 (app/common/Client.js 174:12) 销毁下载器实例 0-NC|甲骨文|正价
+[2024-12-29T10:29:07.024][INFO console] 24 (app/common/Client.js 75:12) 下载器 0-NC|甲骨文|正价 初始化完毕
+[2024-12-29T10:29:07.027][INFO console] 24 (app/common/Client.js 239:14) 下载器 0-NC|甲骨文|正价 登录成功
+[2024-12-29T10:44:20.460][INFO console] 24 (app/common/Client.js 75:12) 下载器 0-NC|甲骨文|正价-负载1 初始化完毕
+[2024-12-29T10:44:20.462][INFO console] 24 (app/common/Client.js 239:14) 下载器 0-NC|甲骨文|正价-负载1 登录成功
+[2024-12-29T10:44:24.252][INFO console] 24 (app/common/Client.js 174:12) 销毁下载器实例 0-NC|甲骨文|正价-负载1
+[2024-12-29T11:19:08.005][INFO console] 24 (app/common/Client.js 239:14) 下载器 0-NC|甲骨文|正价 登录成功
+[2024-12-29T12:09:12.005][INFO console] 24 (app/common/Client.js 239:14) 下载器 0-NC|甲骨文|正价 登录成功
+[2024-12-29T12:19:16.111][INFO console] 24 (app/common/Client.js 174:12) 销毁下载器实例 0-NC|甲骨文|正价
+[2024-12-29T12:19:16.120][INFO console] 24 (app/common/Client.js 75:12) 下载器 0-NC|甲骨文|正价 初始化完毕
+[2024-12-29T12:19:16.123][INFO console] 24 (app/common/Client.js 239:14) 下载器 0-NC|甲骨文|正价 登录成功
+[2024-12-29T12:27:58.246][INFO console] 24 (app/common/Rss.js 58:14) Rss 任务 00.时光PT盒子 wx:sgws6036  初始化完毕
+[2024-12-29T12:28:05.405][INFO console] 24 (app/common/Client.js 75:12) 下载器 03-HZ-1t固态 初始化完毕
+[2024-12-29T12:28:46.856][INFO console] 24 (app/common/Rss.js 183:12) 销毁 Rss 实例: 00.时光PT盒子 wx:sgws6036 
+[2024-12-29T12:29:55.626][INFO console] 24 (app/common/Client.js 75:12) 下载器 04-时光PT盒子 wx:sgws6036 初始化完毕
+[2024-12-29T12:30:18.953][INFO console] 24 (app/common/Client.js 174:12) 销毁下载器实例 03-HZ-1t固态
+[2024-12-29T12:30:29.093][INFO console] 24 (app/common/Client.js 174:12) 销毁下载器实例 04-时光PT盒子 wx:sgws6036
+[2024-12-29T12:30:29.097][INFO console] 24 (app/common/Client.js 75:12) 下载器 04-时光PT盒子 wx:sgws6036 初始化完毕
+[2024-12-29T12:38:29.262][INFO console] 24 (app/common/Client.js 174:12) 销毁下载器实例 0-NC|甲骨文|正价
+[2024-12-29T12:38:29.268][INFO console] 24 (app/common/Client.js 75:12) 下载器 0-NC|甲骨文|正价 初始化完毕
+[2024-12-29T12:38:29.270][INFO console] 24 (app/common/Client.js 239:14) 下载器 0-NC|甲骨文|正价 登录成功
+[2024-12-29T12:46:18.336][INFO console] 24 (app/common/Client.js 174:12) 销毁下载器实例 0-NC|甲骨文|正价
+[2024-12-29T12:46:18.343][INFO console] 24 (app/common/Client.js 75:12) 下载器 0-NC|甲骨文|正价 初始化完毕
+[2024-12-29T12:46:18.345][INFO console] 24 (app/common/Client.js 239:14) 下载器 0-NC|甲骨文|正价 登录成功
+[2024-12-29T12:53:39.486][INFO console] 24 (app/common/Client.js 174:12) 销毁下载器实例 0-NC|甲骨文|正价
+[2024-12-29T12:53:39.493][INFO console] 24 (app/common/Client.js 75:12) 下载器 0-NC|甲骨文|正价 初始化完毕
+[2024-12-29T12:53:39.496][INFO console] 24 (app/common/Client.js 239:14) 下载器 0-NC|甲骨文|正价 登录成功

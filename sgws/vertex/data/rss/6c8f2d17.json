@@ -1,0 +1,29 @@
+{
+  "clientArr": [
+    "919096be"
+  ],
+  "enable": false,
+  "scrapeFree": false,
+  "scrapeHr": false,
+  "autoReseed": false,
+  "onlyReseed": false,
+  "maxSleepTime": 600,
+  "skipSameTorrent": true,
+  "pushTorrentFile": true,
+  "cron": "* * * * *",
+  "addCountPerHour": "",
+  "pushNotify": false,
+  "acceptRules": [],
+  "rejectRules": [],
+  "reseedClients": [],
+  "rssUrls": [
+    ""
+  ],
+  "alias": "00.时光PT盒子 wx:sgws6036 ",
+  "clientSortBy": "uploadSpeed",
+  "uploadLimit": "0",
+  "downloadLimit": "0",
+  "uploadLimitUnit": "MiB",
+  "id": "6c8f2d17",
+  "sameServerClients": []
+}

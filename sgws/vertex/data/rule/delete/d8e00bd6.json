@@ -1,0 +1,15 @@
+{
+  "id": "d8e00bd6",
+  "conditions": [
+    {
+      "key": "state",
+      "compareType": "equals",
+      "value": "error"
+    }
+  ],
+  "alias": "15分钟硬盘空间不足错误",
+  "type": "normal",
+  "priority": 0,
+  "code": "(maindata, torrent) => {\n  return false;\n}",
+  "fitTime": "900"
+}

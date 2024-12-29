@@ -1,0 +1,7 @@
+{
+  "enable": true,
+  "cron": "*/5 * * * *",
+  "script": "async function restartErrorTorrents() {\n  const clientIds = [b8709780];\n\n  for (const clientId of clientIds) {\n    const client = global.runningClient[clientId];\n\n    if (!client || !client.maindata) {\n      logger.error(`Client ${clientId} 信息不完整。`);\n      continue;\n    }\n\n    const maindata = client.maindata;\n\n    for (const torrent of maindata.torrents) {\n      // 检查种子状态是否为错误\n      if (torrent.state === 'error') {\n        logger.info(`检测到错误种子，准备重启: ${torrent.name}`);\n        try {\n          // 调用重启种子的 API\n          await client.resumeTorrent(torrent.hash);\n          logger.info(`成功重启种子: ${torrent.name}`);\n        } catch (error) {\n          logger.error(`重启种子 ${torrent.name} 失败:`, error);\n        }\n      }\n    }\n  }\n}",
+  "alias": "错误种子重启",
+  "id": "0ce561a0"
+}

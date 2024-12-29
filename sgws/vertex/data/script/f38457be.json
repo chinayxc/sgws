@@ -1,0 +1,7 @@
+{
+  "enable": true,
+  "cron": "*/5 * * * *",
+  "script": "async function reannounceRecentTorrents() {\n  const clientIds = [b8709780];\n\n  // 获取当前时间的 Unix 时间戳（秒）\n  const now = Math.floor(Date.now() / 1000);\n  // 计算五分钟前的时间戳\n  const fiveMinutesAgo = now - 5 * 60;\n\n  for (const clientId of clientIds) {\n    const client = global.runningClient[clientId];\n\n    if (!client || !client.maindata) {\n      logger.error(`Client ${clientId} 信息不完整。`);\n      continue;\n    }\n\n    const maindata = client.maindata;\n\n    for (const torrent of maindata.torrents) {\n      // 检查种子的添加时间是否在过去的五分钟内\n      if (torrent.addedTime >= fiveMinutesAgo && torrent.addedTime <= now) {\n        logger.info(`对种子进行重新汇报: ${torrent.name}`);\n        try {\n          // 调用重新汇报的 API\n          await client.reannounceTorrent(torrent.hash);\n        } catch (error) {\n          logger.error(`重新汇报种子 ${torrent.name} 失败:`, error);\n        }\n      }\n    }\n  }\n}",
+  "alias": "汇报",
+  "id": "f38457be"
+}
